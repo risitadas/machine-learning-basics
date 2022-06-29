@@ -1,0 +1,52 @@
+Limits OF Machine Learning:
+
+1. Data ---> a) lack of data
+	     b) lack of good data
+
+ Data quality - 
+	^ garbage in garbage out
+	^ output quality depends on input quality
+
+ Quality assurance - 
+	^ high quality data requires:
+		* data analysis
+		* review of outliers
+		* domain expertise
+		* documentation
+
+2. Deterministic Problems
+	-ML is stochastic, not deterministic
+
+3. Ethics
+
+4. Misapplication ----> * P-hacking
+		       * Scope of the analysis
+
+5. Interpretability and Explainability - 
+	* transparency to increase trust, clarity, and understanding
+	* use cases: business adoption, regulatory oversight, minimizing bias
+
+6. Beware - 
+	* dont blindly trust your model
+	* awareness is key
+	* pay attention to your data
+
+ml models are only good as the data you give it 
+
+
+other limitations include :
+
+* each narrow application needs to be specially trained
+* require large amounts of hand-crafted, structured training data
+* learning must generally be supervised: Training data must be tagged
+* require lengthy offline/ batch training
+* not to learn incrementally or interactively, in real time
+
+
+
+Explainable AI 
+
+Black box				Explainable AI
+# deep learning				# traditional machine learning
+# better for "what?"			# better for "why?" (prediction,inference) 
+# highlt accurate predictions		# understandable by humans
