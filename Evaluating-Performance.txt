@@ -1,0 +1,62 @@
+Evaluating Performance Of Classification
+
+
+1. Overfitting:
+
+* performs great on training data
+* performs poorly on testing data
+* Model memorized training data and can't generalize learnings to new data
+* use testing set to check model performances
+
+this is why we need to split our dataset into two sets
+
+2. Accuracy:
+
+* accuracy = correctly classified observation / all observations
+* limits of accuracy: fraud example
+	^ misses majority of fraudulent transactions
+	^ need a better metric
+
+3. Confusion Matrix:
+
+i) true positives - fraudulent points that are correctly classified as fraudulent
+ii) false negatives - fraudulent observations that are incorrectly classified as legitimate
+iii) true negatives - legitimate points correctly predicted as not fraudulent
+iv) false positives - legitimate points that are incorrectly predicted as fraudulent
+
+4. Sensitivity:
+
+	= true positives/ (true positives+false negatives)
+
+*Sensitivity values accurate prediction of fraudulent transactions 
+specifically by valuing true positives more
+
+*for Optimizing, rather mark legitimate transactions as suspicious 
+than authorize fraudulent transactions
+
+5. Specificity:
+
+	= true negatives/ (true negatives+false positives)
+
+* values true negatives
+* useful metric for spam filters
+
+eg: for an email user, it's better to send spam to the inbox rather than
+ send real emails to the spam folder for deletion.
+
+
+
+Evaluating Regression
+
+* error = distance between point(actual value) and line(predicted value)
+* many ways calculate this. eg, root mean square error
+
+
+
+Evaluating Unsupervised Learning
+
+unsupervised learning does not have predicted variables, so there's no correct output to compare to.
+how well our unsupervised learning model performs depends on the problem we're solving. 
+so, we assess the performance based on how well the results advance our initial objective.
+
+*choose your own adventure!
