@@ -1,0 +1,61 @@
+
+
+Machine Learning Concepts
+
+
+Three types :
+
+1) Reinforcement Learning
+	 * training method based on rewarding desired behaviors and/or 
+		punishing undesired ones
+	 * learning agent is able to perceive and interpret its environment, 
+		take actions and learn through trial and error
+
+2) Supervised Learning
+	* an approach to creating artificial intelligence (AI), where a computer algorithm
+		is trained on input data that has been labeled for a particular output
+	* turns data into real, actionable insights
+	* it enables organizations to use data to understand and prevent unwanted outcomes
+		or boost desired outcomes for their target variable
+
+3) Unsupervised Learning
+	* the use of artificial intelligence (AI) algorithms to identify patterns in 
+		data sets containing data points that are neither classified nor labeled
+	* in reality,data doesn't always come with labels
+		^ requires manual labor to label
+		^ labels are unknown
+	* no labels: model is unsupervised and finds its own patterns
+
+
+
+
+Training Data :
+	*training data - existing data to learn from
+	*training a model - when a model is built from training data
+
+
+Supervised vs Unsupervised Learning:
+
+* Supervised learning
+	^training data is "labeled"
+* Unsupervised learning
+	^training data only has features
+	^useful for:
+		*Anomaly detection
+		*Clustering, eg., dividing data into groups
+
+
+
+
+Applications:
+
+	MACHINE LEARNING:
+		1. SUPERVISED LEARNING
+			* Classification
+			* Regression
+
+		2. UNSUPERVISED LEANING
+			* Clustering
+			* Anomaly detection
+			* Association
+
