@@ -1,0 +1,29 @@
+Deep Learning:
+
+* type of machine learning and artificial intelligence (AI) that imitates 
+	the way humans gain certain types of knowledge
+* important element of data science, which includes statistics and predictive modeling
+* AKA: Neutral Networks
+	^ basic unit : neurons(nodes)
+* special area of Machine Learning
+* requires more data
+* best when inputs are images or text
+
+for example: Predicting Box Office Revenue
+
+budget and advertisements -----------> O ----------->spend ---\
+advertisements and star powet -------> O ------->awareness -----> O box office revenue
+budget,advertisements, and timing ---> O ---->distribution ---/
+
+* Neutral Networks are much larger
+* Deep Learning : neutral network with many neutrons
+* can solve complex problems
+
+When to use deep learning?
+
+	* lots of data
+	* access to processing power
+	* lack of domain knowledge
+	* complex problems :
+		a) computer vision
+		b) natural language processing

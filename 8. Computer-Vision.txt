@@ -1,0 +1,37 @@
+Computer Vision
+
+* helps computers see and understand the content of digital images
+* is necessary to enable, for example, self-driving cars
+
+eg:
+Manufacturers such as Tesla, BMW, Volvo, and Audi use multiple cameras to acquire images
+from the environment so that their self-driving cars can detect objects, 
+lane markings, and traffic signs to safely drive
+
+
+Image Data:
+to understand how it works, 
+* we first need to find out what image data looks like
+* an image is made up of pixels
+* these pixels contain information about color and intensity
+	 # for a grayscale pixelated image:
+		each pixel's intensity can be represented by a number between 0 and 255
+
+	 # for coloured images :
+		generally stored in the RGB system
+		RGB stands for Red, Green, and Blue 
+		Each image can be thought of as being represented by three rasters, 
+			one for each color channel
+		This means that you need three times the amount of data to store a 
+			color image compared to a grayscale one
+		So, digital images can actually be seen as a bunch of numbers
+
+
+Applications :
+
+* Facial recognition
+* Self-driving vehicles
+* Automatic detection of tumors in CT scans
+* Deep fake
+
+

@@ -1,0 +1,73 @@
+Natural Language Processing (NLP)
+
+* the ability for computers to understand the meaning of human language
+
+* combines computational linguistics—rule-based modeling of human language—with statistical, 
+	machine learning, and deep learning models
+
+* together,these technologies enable computers to process human language in the form of text 
+	or voice data and to ‘understand’ its full meaning, complete with the speaker or writer’s intent and sentiment
+
+* plays a growing role in enterprise solutions that help streamline business operations, 
+	increase employee productivity, and simplify mission-critical business processes
+
+* drives computer programs that translate text from one language to another, 
+	respond to spoken commands, and summarize large volumes of text rapidly—even in real time
+
+* two main phases: data preprocessing 
+		   algorithm development
+
+
+techniques and methods used in NLP :
+1) Bag of words -
+	* counting the number of times important words appear in each piece of text
+	* limitations - word counts dont help us consider synonyms
+		eg: "blue"
+		    a) "sky blue"	b) "aqua" 	c) "cerulean"
+		      - want to group as a single feature
+	* solution : Word embeddings ---> create features that group similar words
+				     ---> features have a mathematical meaning
+
+2) Parsing
+3) Word segmentation
+4) Sentence breaking
+5) Morphological segmentation
+6) Stemming
+7) Word sense disambiguation
+
+
+Used for?
+* text classification
+* text extraction
+* machine translation
+* natural language generation
+
+
+
+Applications and Benefits: 
+* improved accuracy and efficiency of documentation
+* language translation
+* useful for personal assistants such as Alexa, by enabling it to understand spoken word
+* enables an organization to use chatbots for customer support
+* easier to perform sentiment analysis
+* provides advanced insights from analytics that were previously unreachable due to data volume
+
+
+
+Challenges:
+* precision
+* tone of voice and inflection
+* evolving use of language
+
+
+
+Deep Learning:
+* two types of problems ---> 1. computer vision
+			     2. natural language processing
+
+*why deep learning?
+	1. complex problems
+	2. automatic feature extraction
+	3. lots of data
+
+
