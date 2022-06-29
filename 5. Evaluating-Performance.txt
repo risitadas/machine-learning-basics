@@ -10,6 +10,7 @@ Evaluating Performance Of Classification
 
 this is why we need to split our dataset into two sets
 
+
 2. Accuracy:
 
 * accuracy = correctly classified observation / all observations
@@ -17,12 +18,20 @@ this is why we need to split our dataset into two sets
 	^ misses majority of fraudulent transactions
 	^ need a better metric
 
+
 3. Confusion Matrix:
 
 i) true positives - fraudulent points that are correctly classified as fraudulent
+		-positive outcomes that the model predicted correctly
 ii) false negatives - fraudulent observations that are incorrectly classified as legitimate
+		-negative outcomes that the model predicted incorrectly
+		- known as Type II error
 iii) true negatives - legitimate points correctly predicted as not fraudulent
+		-negative outcomes that the model predicted correctly
 iv) false positives - legitimate points that are incorrectly predicted as fraudulent
+		- positive outcomes that the model predicted incorrectly
+		- known as Type I error
+
 
 4. Sensitivity:
 
@@ -33,6 +42,7 @@ specifically by valuing true positives more
 
 *for Optimizing, rather mark legitimate transactions as suspicious 
 than authorize fraudulent transactions
+
 
 5. Specificity:
 
