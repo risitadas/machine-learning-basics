@@ -21,6 +21,9 @@ Natural Language Processing (NLP)
 techniques and methods used in NLP :
 1) Bag of words -
 	* counting the number of times important words appear in each piece of text
+	* n-grams are a foundational way to make features from text, 
+		n-grams count the sequence of words and n indicates how many word(s) a sequence contains
+	* as we increase the value of n, the occurrences of n-grams decreases
 	* limitations - word counts dont help us consider synonyms
 		eg: "blue"
 		    a) "sky blue"	b) "aqua" 	c) "cerulean"
@@ -34,6 +37,9 @@ techniques and methods used in NLP :
 5) Morphological segmentation
 6) Stemming
 7) Word sense disambiguation
+8) Sentiment Analysis:
+	*methodology for quantifying how positive or negative the emotion expressed by a segment of text is
+	*it is often used for automatically categorizing customer feedback messages or product reviews
 
 
 Used for?
