@@ -1,0 +1,31 @@
+Supervised Learning
+	= modelling
+
+
+1) Classification
+	= assigning a category
+
+	* will this customer stop its subcription? yes/no
+	* is this mole cancerous? yes/no
+	* what kind of wine is that? red/white/rosé
+	* what flower is that? rose/tulip/lily/carnation
+
+2) Regression
+	= assigning a continuous variable
+
+	* how much will this stock be worth?
+	* what is this exoplanet's mass?
+	* how tall will this child be as an adult?
+
+
+Classification vs Regression:
+
+* Regression = continuous
+	
+	^ any value within a finite(height) or infinite(time) interval
+		eg: 20 °F,20.1 °F,20.01 °F...
+	
+* Classification = category
+
+	^ one of few specific values
+		eg: cold, mild, hot

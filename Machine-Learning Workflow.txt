@@ -1,0 +1,39 @@
+Machine Learning Workflow
+
+
+Raw Data ---> 1. Extract features ---> 2. Split dataset ---> 3. Train model ---> 4. Evaluate ----> model
+						|			^		^
+					/		\		|		|
+				Train dataset	   Test dataset -------------------------
+					|				|
+					 --------------------------------
+
+
+	(inputted into)		    (outputs)
+Data -------------------> ML Model ------------> Trained Model
+
+
+
+* Test dataset : "unseen" data
+
+Test dataset ------> model ----> evaluate predictions
+
+
+3. Train model ----> 4. Evaluate ---> is performance good enough?---> yes ---? model
+	^						|
+	<----------------------------------------------no	
+
+
+Summary of steps:
+
+1. Extract features
+	* choosing features and manipulating the dataset
+
+2. Split dataset
+	* train and test dataset
+
+3. Train model
+	* input train dataset into a machine learning model
+
+4. Evaluate
+	* if desired performance isn't reached: tune the model and repeat step 3					

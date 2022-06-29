@@ -1,0 +1,30 @@
+Unsupervised learning:
+ = no target column
+	^ no guidance
+	^ looks at the whole dataset
+	^ tries to detect patterns
+
+
+1) Clustering Models
+
+	* K-Means:
+		^ specify the number of clusters
+
+	* DBSCAN(density-based spayial clustering of applications with noise):
+		^ specify what constitutes a cluster
+
+2) Anomaly detection
+
+	* Anomaly detection = detecting outliers
+	* Outliers = observations that differ from the rest
+
+Some anomaly detection use cases:
+* discovering devices that fail faster or last longer
+* discover fraudsters that manage trick the system
+* discover patients that resist a fatal disease
+
+
+3) Association
+
+	*finding events that happen together
+	*often used for market basket analysis

@@ -1,0 +1,12 @@
+Applications:
+
+	MACHINE LEARNING:
+		1. SUPERVISED LEARNING
+			* Classification
+			* Regression
+
+		2. UNSUPERVISED LEANING
+			* Clustering
+			* Anomaly detection
+			* Association
+
